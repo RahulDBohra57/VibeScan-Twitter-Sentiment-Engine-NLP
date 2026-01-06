@@ -13,7 +13,7 @@ The system uses text preprocessing, TF-IDF feature extraction, and machine learn
 - User uploads a CSV or Excel file containing Twitter comments
 - User selects the column containing tweet text
 - Text is cleaned and preprocessed
-- Sentiment is predicted using the trained model
+- Sentiment is predicted using the trained model (XG-Boost)
 - App displays:
   - Overall sentiment distribution
   - Dominant sentiment (Positive / Neutral / Negative)
