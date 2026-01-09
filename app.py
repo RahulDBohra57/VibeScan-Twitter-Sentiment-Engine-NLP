@@ -10,7 +10,7 @@ import streamlit as st
 
 # MUST be first Streamlit command
 st.set_page_config(
-    page_title="Twitter Sentiment Analyzer",
+    page_title="VibeScan – Twitter Sentiment Engine",
     layout="wide"
 )
 
@@ -83,7 +83,7 @@ def preprocess_text(text):
 
 # Streamlit UI
 
-st.title("Twitter Sentiment Analysis using NLP")
+st.title("VibeScan – Twitter Sentiment Engine")
 st.write(
     "Upload a CSV or Excel file containing Twitter reviews/comments. "
     "The app analyzes overall sentiment and generates insights."
